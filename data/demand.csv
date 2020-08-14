@@ -1,0 +1,8 @@
+Requestor	Requestor Service Line	Requestor Sub ServiceLine	Requestor SMU	Job Title	Rank	No of Resources_required	Country	Location 	Alternate Location	Technical Skill 1	Technical Skill 2	Technical Skill 3	Functional Skill 1	Functional Skill 2	Functional Skill 3	Process Skill 1	Process Skill 2	Process Skill 3	Min Experience
+Req_1	ServiceLine3	SubserviceLine4	SMU2	Financial Risk Analyst	Rank_3	1	India	Bangalore		Microsoft Excel	Microsoft Word		Risk Analysis	Analysis	Accounting	Communication	Documentation	Team Skill	8
+Req_2	ServiceLine1	SubserviceLine1	SMU1	Data Visualisation Engineer	Rank_5	1	India	Kochi		Dashboarding	Power BI	SQL	Requirement Analysis			Communication	Problem Solving	Team Skill	1
+Req_3	ServiceLine2	SubserviceLine2	SMU3	ML Engineer	Rank_3	1	India	Bangalore		Artificial Intelligence	ML	Python	Business Analysis	Requirement Analysis	Data Modelling	Problem Solving	Analytical Ability	Communication	8
+Req_4	ServiceLine3	SubserviceLine1	SMU3	Account Reporting Specialist	Rank_4	2	Poland	Warsaw		Microsoft Excel	VBA		Accounting	Internal Audit	Reporting	Communication	Problem Solving	Analytical Ability	5
+Req_5	ServiceLine3	SubserviceLine4	SMU2	Business Analyst	Rank_4	1	Germany 	Koln		Microsoft Visio	Microsoft Office		Business Analysis	Taxation	Business Case Modelling	Problem Solving	Communication	Documentation	5
+Req_6	ServiceLine2	SubserviceLine3	SMU1	Technical Lead - Web Technologies	Rank_3	1	India	Kochi		Java	HTML5	Cloud	Requirement Analysis	Business Analysis		Problem Solving	Analytical Ability	Communication	8
+Req_7	ServiceLine2	SubserviceLine4	SMU2	Web Developer	Rank_5	1	India	Bangalore		HTML5	React	Azure	Requirement Analysis			Communication	Team Skill	Analytical Ability	1

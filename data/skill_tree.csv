@@ -1,0 +1,104 @@
+Primary Unit	Sub Unit 1	Sub Unit 2	Sub Unit 3	Skill
+Unit 1	Technology	Cloud Technology	Containers	Docker
+Unit 1	Technology	Cloud Technology	Containers	Kubernetes
+Unit 1	Technology	Cloud Technology	PaaS	Database management
+Unit 1	Technology	Cloud Technology	PaaS	No SQL
+Unit 1	Technology	Cloud Technology	PaaS	Application Development
+Unit 1	Technology	Programming	Scripting	Python
+Unit 1	Technology	Programming	Scripting	Shell script
+Unit 1	Technology	Programming	SQL	
+Unit 1	Technology	Programming	Scripting	Power Shell
+Unit 1	Technology	Platform	Cloud	Azure
+Unit 1	Technology	Platform	Windows Servers	Administration
+Unit 1	Technology	Platform	Cloud	AWS
+Unit 1	Technology	Platform	Unix	Administration
+Unit 1	Technology	Web Technologies	Java	
+Unit 1	Technology	Web Technologies	C#.net	
+Unit 1	Technology	Web Technologies	Web development	React
+Unit 1	Technology	Web Technologies	Web development	Angular
+Unit 1	Technology	Data Warehousing	ETL	IBM DataStage
+Unit 1	Technology	Data Warehousing	SAP HANA	
+Unit 1	Technology	Data Warehousing	Business Intelligence	Power BI
+Unit 1	Technology	Data Warehousing	Business Intelligence	SAP BO
+Unit 1	Technology	Data Warehousing	ETL	SSIS
+Unit 1	Technology	Emerging Trends	Artificial Intelligence	Machine Learning
+Unit 1	Technology	Emerging Trends	Artificial Intelligence	Deep Learning
+Unit 1	Technology	Emerging Trends	Analytics	Data Visualisation
+Unit 1	Technology	Emerging Trends	Analytics	Predictive Analytics
+Unit 1	Technology	Emerging Trends	RPA	
+Unit 1	Technology	Emerging Trends	Mixed Reality	
+Unit 1	Technology	Emerging Trends	Augmented and Virtual Reality	
+Unit 2	Technology	Architecture	Cloud Native Architecture	
+Unit 2	Technology	Architecture	Solution Architecture	
+Unit 2	Technology	Architecture	Data Architecture	
+Unit 2	Technology	Architecture	Microservices Architecture	
+Unit 2	Technology	Design	Infrastructure Design	
+Unit 2	Technology	Design	Solution Design	
+Unit 2	Technology	Architecture	Technical Architecture	
+Unit 3	Technology	Service Delivery	Operations	Change Management
+Unit 3	Technology	Service Delivery	Operations	Incident Management
+Unit 3	Technology	Service Delivery	Operations	Problem Management
+Unit 3	Technology	Service Delivery	Operations	SLA Management
+Unit 3	Technology	Service Delivery	Operations	Escalation Management
+Unit 3	Technology	Service Delivery	Operations	IT Operations Management
+Unit 3	Technology	Service Delivery	Operations	Production Support
+Unit 3	Technology	Service Delivery	IT Service Management	
+Unit 3	Technology	Service Delivery	IT Portfolio Management	
+Unit 3	Technology	Service Delivery	Methodologies	ITIL
+Unit 3	Technology	Service Delivery	PMO	
+Unit 3	Technology	Management	IT Governance	
+Unit 3	Technology	Management	Execution	Agile Project Management
+Unit 3	Technology	Management	Methodologies	Iterative
+Unit 3	Technology	Management	Methodologies	SDLC
+Unit 3	Technology	Management	Methodologies	Agile
+Unit 3	Technology	Management	Process Improvement	
+Unit 3	Technology	Management	IT Vendor Management	
+Unit 3	Technology	Management	IT Strategy Management	
+Unit 3	Technology	Management	Agile Coach	
+Unit 3	Technology	Management	Scrum Master	
+Unit 3	Technology	Management	Application Life Cycle Management	
+Unit 3	Technology	Management	Agile Leadership	
+Unit 3	Technology	Management	Business Development	
+Unit 4	Management	Business Development	Stake Holder Management	
+Unit 4	Management	Business Development	Relationship Management	
+Unit 4	Management	Business Development	Account Management	
+Unit 4	Management	Business Development	Proposal Management	
+Unit 4	Management	Business Consulting	Presales consulting	
+Unit 4	Management	Business Consulting	Bid Management	
+Unit 4	Management	Business Consulting	Bid Strategy	
+Unit 4	Management	Business Consulting	Brand Management	
+Unit 4	Management	Budget Management	Budget Analysis	Budget Preparation
+Unit 4	Management	Budget Management	Budget Analysis	Budget Oversight and Tracking
+Unit 4	Management	Budget Management	Budget Analysis	Estimating
+Unit 4	Management	Budget Management	Budget Analysis	Costing
+Unit 4	Management	Business Transformation	Programme Leadership	
+Unit 4	Management	Business Transformation	Programme Delivery	
+Unit 4	Management	Business Transformation	Change Management	Change Strategy
+Unit 5	Finance 	Assessment	Business Case Building	
+Unit 5	Finance 	Assessment	Forecasting	
+Unit 5	Finance 	Process	Accounting	Invoice Discounting
+Unit 5	Finance 	Process	Accounting	Revenue Management
+Unit 5	Finance 	Process	Accounting	Internal Audit
+Unit 5	Finance 	Process	Accounting	External Audit
+Unit 5	Finance 	Process	Reporting	Data Analysis
+Unit 5	Finance 	Process	Reporting	Management Reporting
+Unit 5	Finance 	Process	Reporting	Enterprise Risk Analysis
+Unit 5	Finance 	Process	Planning	Budgeting
+Unit 5	Finance 	Process	Planning	Revenue Planning
+Unit 5	Finance 	Process	Planning	Process Automation
+Unit 5	Finance 	Operations	Analysis	Finance operational reporting
+Unit 5	Finance 	Operations	Analysis	Cash Flow analysis
+Unit 5	Finance 	Operations	Analysis	Capital Management analysis
+Unit 5	Finance 	Business Process Improvement	Process Control	Lean Six Sigma
+Unit 5	Finance 	Tools	Advanced Excel	
+Unit 5	Finance 	Tools	SQL	
+Unit 5	Finance 	Tools	Microsoft Office	
+Unit 6	Business Analysis	Requirement Analysis		
+Unit 6	Business Analysis	Critical Analysis	Problem Solving	
+Unit 6	Business Analysis	Business process analysis		
+Unit 7	Process	Soft Skills	Presentation Skills	
+Unit 7	Process	Soft Skills	Effective Communication	
+Unit 7	Process	GroupDynamics	Interpersonal Communication	
+Unit 7	Process	GroupDynamics	Team Play	
+Unit 7	Process	Cognitive Skills	Analytical Skill	
+Unit 7	Process	Cognitive Skills	Critical Problem Solving	

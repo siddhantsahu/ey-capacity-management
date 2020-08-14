@@ -1,0 +1,112 @@
+Name/ID	Primary Unit	Sub Unit 1	Sub Unit 2	Sub Unit 3	Skill	Skill Level	Years of experience	Rank	Service Line	Sub Service Line	SMU	Country	City	Bench Ageing (weeks)
+Employee 1	Unit 1	Technology	Emerging Trends		RPA	2	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 3	Technology	Service Delivery	Methodologies	ITIL	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 4	Management	Budget Management	Budget Analysis	Budget Preparation	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 4	Management	Business Development		Stake Holder Management	2	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 3	Technology	Management	Execution	Agile	2	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 3	Technology	Management	Methodologies	Iterative	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 3	Technology	Managemnt	Methodologies	SDLC	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 6	Business Analysis	Critical Analysis		Problem Solving	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 4	Management	Budget Management	Budget Analysis	Estimating	2	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 4	Management	Business Transformation		Programme Leadership	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 4	Management	Business Transformation		Programme Delivery	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 3	Technology	Management		IT Governance	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 4	Management	Business Transformation	Change Management	Change Strategy	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 7	Basic	Soft Skills		Presentation Skills	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 7	Basic	Soft Skills		Effective Communication	3	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 1	Technology	Emerging Trends	Analytics	Data Visualisation	1	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 1	Unit 1	Technology	Emerging Trends	Analytics	Predictive Analytics	1	20	Rank_1	ServiceLine1	SubServiceLine1	SMU1	India	Gurgaon	4
+Employee 2	Unit 3	Technology	Management	Methodologies	Agile	2	8	Rank_4	ServiceLine2	SubServiceLine2	SMU1	India	Kochi	2
+Employee 2	Unit 6	Business Analysis	Critical Analysis		Problem Solving	3	8	Rank_4	ServiceLine2	SubServiceLine2	SMU1	India	Kochi	2
+Employee 2	Unit 6	Business Analysis			Business process analysis	3	8	Rank_4	ServiceLine2	SubServiceLine2	SMU1	India	Kochi	2
+Employee 2	Unit 4	Management	Business Development		Relationship Management	2	8	Rank_4	ServiceLine2	SubServiceLine2	SMU1	India	Kochi	2
+Employee 2	Unit 7	Basic	Soft Skills		Presentation Skills	2	8	Rank_4	ServiceLine2	SubServiceLine2	SMU1	India	Kochi	2
+Employee 3	Unit 5	Finance 	Operations	Analysis	Finance operational reporting	2	9	Rank_4	ServiceLine3	SubServiceLine4	SMU1	India	Trivandrum	3
+Employee 3	Unit 5	Finance 	Operations	Analysis	Cash Flow analysis	3	9	Rank_4	ServiceLine3	SubServiceLine4	SMU1	India	Trivandrum	3
+Employee 3	Unit 5	Finance 	Tools		Advanced Excel	2	9	Rank_4	ServiceLine3	SubServiceLine4	SMU1	India	Trivandrum	3
+Employee 3	Unit 7	Process	Soft Skills		Effective Communication	2	9	Rank_4	ServiceLine3	SubServiceLine4	SMU1	India	Trivandrum	3
+Employee 3	Unit 5	Finance 	Process	Reporting	Data Analysis	3	9	Rank_4	ServiceLine3	SubServiceLine4	SMU1	India	Trivandrum	3
+Employee 3	Unit 5	Finance 	Process	Reporting	Enterprise Risk Analysis	3	9	Rank_4	ServiceLine3	SubServiceLine4	SMU1	India	Trivandrum	3
+Employee 4	Unit 7	Basic	Soft Skills		Effective Communication	2	9	Rank_4	ServiceLine1	SubServiceLine2	SMU1	India	Kochi	6
+Employee 4	Unit 1	Technology	Platform	Cloud	Azure	4	9	Rank_4	ServiceLine1	SubServiceLine2	SMU1	India	Kochi	6
+Employee 4	Unit 1	Technology	Programming	Scripting	Power Shell	4	9	Rank_4	ServiceLine1	SubServiceLine2	SMU1	India	Kochi	6
+Employee 4	Unit 1	Technology	Web Technologies	Web development	Angular	4	9	Rank_4	ServiceLine1	SubServiceLine2	SMU1	India	Kochi	6
+Employee 4	Unit 1	Technology	Web Technologies		Java	4	9	Rank_4	ServiceLine1	SubServiceLine2	SMU1	India	Kochi	6
+Employee 5	Unit 1	Technology	Emerging Trends	Analytics	Data Visualisation	2	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 1	Technology	Emerging Trends	Analytics	Predictive Analytics	3	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 2	Technology	Design		Solution Design	3	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 2	Technology	Architecture		Solution Architecture	3	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 2	Technology	Architecture		Data Architecture	4	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 1	Technology	Emerging Trends	Artificial Intelligence	Machine Learning	4	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 1	Technology	Emerging Trends	Artificial Intelligence	Deep Learning	3	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 1	Technology	Programming	Scripting	Python	3	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 6	Business Analysis	Critical Analysis		Problem Solving	2	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 6	Business Analysis			Requirement Analysis	3	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 7	Basic	Soft Skills		Presentation Skills	3	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 5	Unit 7	Basic	Soft Skills		Effective Communication	3	15	Rank_2	ServiceLine1	SubServiceLine3	SMU1	India	Bangalore	5
+Employee 6	Unit 7	Basic	Soft Skills		Effective Communication	3	12	Rank_3	ServiceLine1	SubServiceLine4	SMU1	India	Gurgaon	6
+Employee 6	Unit 1	Technology	Programming		Scripting	4	12	Rank_3	ServiceLine1	SubServiceLine4	SMU1	India	Gurgaon	6
+Employee 6	Unit 1	Technology	Platform		Cloud	2	12	Rank_3	ServiceLine1	SubServiceLine4	SMU1	India	Gurgaon	6
+Employee 6	Unit 1	Technology	Platform		Windows Servers	3	12	Rank_3	ServiceLine1	SubServiceLine4	SMU1	India	Gurgaon	6
+Employee 6	Unit 2	Technology	Design			2	12	Rank_3	ServiceLine1	SubServiceLine4	SMU1	India	Gurgaon	6
+Employee 7	Unit 6	Business Analysis	Critical Analysis			3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 6	Business Analysis				3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 7	Basic	Soft Skills			2	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 7	Basic	Soft Skills			3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Process		Accounting	3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Process		Accounting	3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Process		Accounting	3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Process		Reporting	2	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Process		Reporting	3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Process		Reporting	2	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Tools			3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Tools			3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Assessment			3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 5	Finance 	Tools			3	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 4	Management	Business Development			1	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 7	Unit 4	Management	Business Development			1	13	Rank_3	ServiceLine3	SubServiceLine2	SMU3	India	Chennai	3
+Employee 8	Unit 3	Technology	Service Delivery		Operations	3	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 3	Technology	Service Delivery		Operations	4	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 3	Technology	Service Delivery			3	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 3	Technology	Service Delivery			3	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 3	Technology	Service Delivery		Methodologies	3	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 3	Technology	Service Delivery			3	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 3	Technology	Management			3	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 3	Technology	Management			2	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 3	Technology	Management			2	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 3	Technology	Management			2	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 4	Management	Business Development			3	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 4	Management	Business Development			2	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 4	Management	Business Development			3	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 4	Management	Business Consulting			2	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 6	Business Analysis				2	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 6	Business Analysis	Critical Analysis			2	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 6	Business Analysis				2	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 7	Basic	Soft Skills			3	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 8	Unit 7	Basic	Soft Skills			4	16	Rank_2	ServiceLine1	SubServiceLine1	SMU3	India	Trivandrum	4
+Employee 9	Unit 1	Technology	Data Warehousing		SAP HANA	2	7	Rank_4	ServiceLine1	SubServiceLine1	SMU1	India	Kochi	5
+Employee 9	Unit 1	Technology	Data Warehousing	Business Intelligence	Power BI	3	7	Rank_4	ServiceLine1	SubServiceLine1	SMU1	India	Kochi	5
+Employee 9	Unit 1	Technology	Data Warehousing	Business Intelligence	SAP BO	4	7	Rank_4	ServiceLine1	SubServiceLine1	SMU1	India	Kochi	5
+Employee 9	Unit 7	Basic	Soft Skills		Effective Communication	3	7	Rank_4	ServiceLine1	SubServiceLine1	SMU1	India	Kochi	5
+Employee 10	Unit 7	Basic	Soft Skills		Effective Communication	3	5	Rank_5	ServiceLine1	SubServiceLine4	SMU1	India	Bangalore	3
+Employee 10	Unit 1	Technology	Web Technologies		C#.net	2	5	Rank_5	ServiceLine1	SubServiceLine4	SMU1	India	Bangalore	3
+Employee 10	Unit 1	Technology	Platform	Cloud	AWS	2	5	Rank_5	ServiceLine1	SubServiceLine4	SMU1	India	Bangalore	3
+Employee 10	Unit 1	Technology	Web Technologies	Web development	React	2	5	Rank_5	ServiceLine1	SubServiceLine4	SMU1	India	Bangalore	3
+Employee 11	Unit 1	Technology	Emerging Trends	Artificial Intelligence	Machine Learning	3	2	Rank_5	ServiceLine1	SubServiceLine1	SMU2	India	Kochi	8
+Employee 11	Unit 1	Technology	Emerging Trends	Artificial Intelligence	Deep Learning	2	2	Rank_5	ServiceLine1	SubServiceLine1	SMU2	India	Kochi	8
+Employee 11	Unit 1	Technology	Emerging Trends	Analytics	Data Visualisation	2	2	Rank_5	ServiceLine1	SubServiceLine1	SMU2	India	Kochi	8
+Employee 11	Unit 1	Technology	Emerging Trends	Analytics	Predictive Analytics	2	2	Rank_5	ServiceLine1	SubServiceLine1	SMU2	India	Kochi	8
+Employee 11	Unit 1	Technology	Programming	SQL		4	2	Rank_5	ServiceLine1	SubServiceLine1	SMU2	India	Kochi	8
+Employee 11	Unit 1	Technology	Data Warehousing	Business Intelligence	Power BI	3	2	Rank_5	ServiceLine1	SubServiceLine1	SMU2	India	Kochi	8
+Employee 11	Unit 7	Basic	Soft Skills		Effective Communication	4	2	Rank_5	ServiceLine1	SubServiceLine1	SMU2	India	Kochi	8
+Employee 12	Unit 5	Finance 	Process	Reporting	Data Analysis	2	8	Rank_4	ServiceLine3	SubServiceLine2	SMU2	India	Bangalore	2
+Employee 12	Unit 5	Finance 	Process	Reporting	Management Reporting	3	8	Rank_4	ServiceLine3	SubServiceLine2	SMU2	India	Bangalore	2
+Employee 12	Unit 5	Finance 	Process	Reporting	Enterprise Risk Analysis	2	8	Rank_4	ServiceLine3	SubServiceLine2	SMU2	India	Bangalore	2
+Employee 12	Unit 5	Finance 	Tools		SQL	4	8	Rank_4	ServiceLine3	SubServiceLine2	SMU2	India	Bangalore	2
+Employee 12	Unit 5	Finance 	Tools		Microsoft Office	4	8	Rank_4	ServiceLine3	SubServiceLine2	SMU2	India	Bangalore	2
+Employee 12	Unit 5	Finance 	Assessment		Forecasting	3	8	Rank_4	ServiceLine3	SubServiceLine2	SMU2	India	Bangalore	2
+Employee 12	Unit 7	Process	Soft Skills		Effective Communication	2	8	Rank_4	ServiceLine3	SubServiceLine2	SMU2	India	Bangalore	2
+Employee 13	Unit 1	Technology	Emerging Trends	Analytics	Data Visualisation	3	3	Rank_5	ServiceLine1	SubServiceLine1	SMU1	India	Kochi	3
+Employee 13	Unit 1	Technology	Data Warehousing	Business Intelligence	Power BI	4	3	Rank_5	ServiceLine1	SubServiceLine1	SMU1	India	Kochi	3
+Employee 13	Unit 1	Technology	Programming	SQL		3	3	Rank_5	ServiceLine1	SubServiceLine1	SMU1	India	Kochi	3
+Employee 13	Unit 1	Technology	Programming	Scripting	Python	2	3	Rank_5	ServiceLine1	SubServiceLine1	SMU1	India	Kochi	3
