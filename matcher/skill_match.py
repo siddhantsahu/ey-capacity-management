@@ -56,7 +56,9 @@ class SkillMatcher:
         elif unit.lower() == "process":
             skills_db = self.proc_skills
         else:
-            raise ValueError("Incorrect argument for unit")
+            raise ValueError(
+                "Incorrect argument for unit, must be technical or functional or process"
+            )
         return skills_db
 
     def get_idx(self, skill):
