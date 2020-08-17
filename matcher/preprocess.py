@@ -63,17 +63,17 @@ def normalize_supply():
     )
 
 
-def compute_max_values(meta_csv):
+def compute_max_values():
     """Compute maximum values of experience, bench age, rank etc. from meta information.
 
     In a production scenario, on every insert/update to the employee metadata database,
     compute this and store it to avoid computing on every request. Essentially, this
     function should read the cache and return the value - O(1) lookup.
     """
-    df = pd.read_csv(meta_csv, sep="\t")
-    max_experience = df["experience"].max()
-    max_rank = df["rank"].str.replace("Rank_", "").astype(int).max()
-    max_bench_age = df["bench_age"].max()  # must be in weeks
+    meta_df = pd.read_csv("../data/emp_meta.csv", sep="\t")
+    max_experience = meta_df["years_of_experience"].max()
+    max_rank = meta_df["rank"].str.replace("Rank_", "").astype(int).max()
+    max_bench_age = meta_df["bench_age"].max()  # must be in weeks
     return max_experience, max_rank, max_bench_age
 
 
