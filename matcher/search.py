@@ -1,6 +1,5 @@
 """Search functionality. Main module."""
-from collections import namedtuple
-
+import click
 import pandas as pd
 
 from dataclasses import Demand, Dept, Skills
@@ -42,8 +41,15 @@ def parse_demand(demand_csv="../data/demand.csv", idx=2):
     return demand
 
 
-if __name__ == "__main__":
-    # TODO: command line parser, weights - by service lines
-    demand = parse_demand("../data/demand.csv", 1)
+@click.command()
+@click.argument("demand_index", default=2)
+@click.argument("weight_index", default=1)
+def main(demand_index, weight_index):
+    demand = parse_demand("../data/demand.csv", demand_index)
     obj = Retrieval()
-    print(obj.get_results(demand))
+    res = obj.get_results(demand, weight_index)
+    print(res)
+
+
+if __name__ == '__main__':
+    main()
