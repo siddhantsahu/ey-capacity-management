@@ -45,11 +45,17 @@ def parse_demand(demand_csv="../data/demand.csv", idx=2):
 @click.argument("demand_index", default=2)
 @click.argument("weight_index", default=1)
 def main(demand_index, weight_index):
+    """Run search.
+
+    Args:
+        demand_index: int, 0-6 represents demand (query) from demand.csv
+        weight_index: int, 1-3 corresponds to the weight criteria for service line 1-3
+    """
     demand = parse_demand("../data/demand.csv", demand_index)
     obj = Retrieval()
     res = obj.get_results(demand, weight_index)
     print(res)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

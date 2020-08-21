@@ -1,5 +1,6 @@
 """Implements the retrieval module."""
 import functools
+import json
 
 import pandas as pd
 
@@ -43,7 +44,9 @@ def weighted_euclidean_dist(candidate, demand, weight):
 
 class Retrieval:
     def __init__(self):
-        self.index = build_index()
+        # load index
+        with open("../data/index.json", "r") as fp:
+            self.index = json.load(fp)
         self.weights = {
             1: Weight(
                 technical=0.1,
@@ -125,9 +128,9 @@ class Retrieval:
         """Normalize candidates dataframe to compute scores."""
         normalized_df = candidates_df.assign(
             location=lambda x: x["city"] + ", " + x["country"],
-            technical=lambda x: x["technical"] / 5,
-            functional=lambda x: x["functional"] / 5,
-            process=lambda x: x["process"] / 5,
+            technical=lambda x: x["technical"] / 4,
+            functional=lambda x: x["functional"] / 4,
+            process=lambda x: x["process"] / 4,
             rank=lambda x: x["rank"].str.replace("Rank_", "").astype("int") / MAX_RANK,
             years_of_experience=lambda x: x["years_of_experience"] / MAX_EXPERIENCE,
             bench_age=lambda x: x["bench_age"] / MAX_BENCH_AGE,

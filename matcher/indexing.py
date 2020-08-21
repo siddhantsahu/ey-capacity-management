@@ -54,4 +54,6 @@ def build_index():
 
 
 if __name__ == "__main__":
-    print(build_index())
+    index = build_index()
+    with open("../data/index.json", "w") as fp:
+        json.dump(index, fp)
