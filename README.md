@@ -20,7 +20,6 @@ black
 * `emp_meta.csv`, `emp_skills.csv` - after creating the above csv files, run the command `python preprocess.py`
 
 #### Run the program
-
  Run `python search.py` to test run search functionality. Optionally, for testing different combinations of demands and weights, use `python search.py --demand_index 4 --weight_index 1`
 
  Demand index refers to the index of the row in `demand.csv` file, `weight_index` 1-3 refers to pre-selected weights for service lines 1-3.
