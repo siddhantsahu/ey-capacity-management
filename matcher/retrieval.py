@@ -44,9 +44,7 @@ def weighted_euclidean_dist(candidate, demand, weight):
 
 class Retrieval:
     def __init__(self):
-        # load index
-        with open("../data/index.json", "r") as fp:
-            self.index = json.load(fp)
+        self.index = build_index()
         self.weights = {
             1: Weight(
                 technical=0.1,

@@ -21,5 +21,6 @@ black
 
 #### Run the program
 
-* Create index by running `python indexing.py` inside `matcher` directory/
-* Run `python search.py [DEMAND_INDEX] [WEIGHT_INDEX]` to test run search functionality. `DEMAND_INDEX` can be 0-6 and corresponds to the demand in the `demand.csv` file and `WEIGHT_INDEX` 1-3 denotes the weight criteria (hard-coded in file) for service line 1-3.
+ Run `python search.py` to test run search functionality. Optionally, for testing different combinations of demands and weights, use `python search.py --demand_index 4 --weight_index 1`
+
+ Demand index refers to the index of the row in `demand.csv` file, `weight_index` 1-3 refers to pre-selected weights for service lines 1-3.
