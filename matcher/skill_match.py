@@ -1,10 +1,9 @@
 """Module to match user typed skill to a skill on our database.
 
 Some ideas to consider:
-* TF-IDF similarity for matching skills
 * Consider abbreviations, e.g. SLA for service level agreement, ML for machine learning etc.
-* (Alternatively) Design: Avoid such abnormalities by auto-sbuggestions while choosing skills
-* Query re-writing to improve precision - see IR concepts
+* (Alternatively) Design: Avoid such abnormalities by auto-suggestions while choosing skills
+  from a GUI
 """
 import pandas as pd
 from fuzzywuzzy import fuzz, process

@@ -4,7 +4,6 @@ import json
 
 import pandas as pd
 
-from dataclasses import Weight
 from indexing import build_index
 from preprocess import compute_max_values
 from skill_match import SkillMatcher
@@ -14,14 +13,14 @@ from skill_match import SkillMatcher
 MAX_EXPERIENCE, MAX_RANK, MAX_BENCH_AGE = compute_max_values()
 
 
-def weighted_euclidean_dist(candidate, demand, weight):
+def candidate_demand_similarity(candidate, demand, weight):
     """Compute weighted euclidean distance between normalized demand and candidate vector
-    to calculate score.
+    to calculate similarity score.
     
     Args:
         candidate: pd.Series, from candidates_df
         demand: tuple
-        weight: tuple
+        weight: pd.Series
         
     Returns:
         float, distance score between candidate and demand
@@ -29,51 +28,45 @@ def weighted_euclidean_dist(candidate, demand, weight):
     dist = 0
     # Note: lower distance score for higher bench age
     dist += (
-        weight.technical * (1 - candidate["technical"]) ** 2
-        + weight.functional * (1 - candidate["functional"]) ** 2
-        + weight.process * (1 - candidate["process"]) ** 2
-        + weight.experience
+        weight["technical"] * (1 - candidate["technical"]) ** 2
+        + weight["functional"] * (1 - candidate["functional"]) ** 2
+        + weight["process"] * (1 - candidate["process"]) ** 2
+        + weight["experience"]
         * (demand.experience / MAX_EXPERIENCE - candidate["years_of_experience"]) ** 2
-        + weight.rank * (demand.rank / MAX_RANK - candidate["rank"]) ** 2
-        + weight.bench_age ** (1 - candidate["bench_age"]) ** 2
+        + weight["rank"] * (demand.rank / MAX_RANK - candidate["rank"]) ** 2
+        + weight["bench_age"] ** (1 - candidate["bench_age"]) ** 2
     )
     if demand.location != candidate["location"]:
-        dist += weight.location
-    return dist ** 0.5
+        dist += weight["location"]
+    similarity = 1 / (1 + dist ** 0.5)
+    return similarity
+
+
+def candidate_dept_similarity(candidate, requestor_dept):
+    """Similarity between employee's department and requestor department.
+
+    similarity = 3 if both from same service_line+sub_service_line+smu
+    similarity = 2 if both from same service_line+sub_service_line
+    similarity = 1 if both from same service_line
+    similarity = 0 if both from different service_line
+    """
+    similarity = 0
+    if candidate["service_line"].lower() == requestor_dept.service_line.lower():
+        similarity += 1
+    else:
+        return similarity
+    if candidate["sub_service_line"].lower() == requestor_dept.sub_service_line.lower():
+        similarity += 1
+    else:
+        return similarity
+    if candidate["smu"].lower() == requestor_dept.smu.lower():
+        similarity += 1
+    return similarity
 
 
 class Retrieval:
     def __init__(self):
         self.index = build_index()
-        self.weights = {
-            1: Weight(
-                technical=0.1,
-                functional=0.3,
-                process=0.1,
-                experience=0.1,
-                rank=0.1,
-                location=0.3,
-                bench_age=0,
-            ),
-            2: Weight(
-                technical=0.1,
-                functional=0.25,
-                process=0.5,
-                experience=0.1,
-                rank=0,
-                location=0.4,
-                bench_age=0.1,
-            ),
-            3: Weight(
-                technical=0.15,
-                functional=0.2,
-                process=0.05,
-                experience=0.2,
-                rank=0,
-                location=0.1,
-                bench_age=0.3,
-            ),
-        }
 
     def _get_candidates_for_skills(self, skill_id_list):
         """Get suitable candidates for the requirement.
@@ -135,15 +128,20 @@ class Retrieval:
         )
         return normalized_df
 
-    def get_results(self, demand, weight_index):
+    def get_results(self, demand, weight, sort_by_dept=False):
         candidates_df = self.get_candidates_df(demand.skills)
         normalized_df = self.normalize_data(candidates_df)
-        normalized_df["distance"] = normalized_df.apply(
-            lambda x: weighted_euclidean_dist(x, demand, self.weights[weight_index]), axis=1
+        normalized_df["fitment"] = normalized_df.apply(
+            lambda x: candidate_demand_similarity(x, demand, weight), axis=1
         )
-        # fitment, i.e. a measure of similarity = 1 / (1+distance)
-        normalized_df = normalized_df.assign(fitment=lambda x: 1 / (1 + x["distance"])).drop(
-            ["distance", "country", "city"], axis=1
+        normalized_df["dept_similarity"] = normalized_df.apply(
+            lambda x: candidate_dept_similarity(x, demand.dept), axis=1
         )
-        results = candidates_df.merge(normalized_df[["emp_id", "fitment"]], on="emp_id")
-        return results.sort_values("fitment", ascending=False)
+        normalized_df = normalized_df.drop(["country", "city"], axis=1)
+        results = candidates_df.merge(
+            normalized_df[["emp_id", "fitment", "dept_similarity"]], on="emp_id"
+        )
+        if sort_by_dept:
+            return results.sort_values(["dept_similarity", "fitment"], ascending=[False, False])
+        else:
+            return results.sort_values("fitment", ascending=False)
