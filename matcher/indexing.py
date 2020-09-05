@@ -47,8 +47,8 @@ def spimi(es_pairs):
     return index
 
 
-def build_index():
-    es_pairs = get_emp_skill_pairs("../data/emp_skills.csv")
+def build_index(emp_skills_csv="../data/emp_skills.csv"):
+    es_pairs = get_emp_skill_pairs(emp_skills_csv)
     index = spimi(es_pairs)
     return index
 

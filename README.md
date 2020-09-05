@@ -11,6 +11,7 @@ fuzzywuzzy
 tabulate
 click
 black
+nb_black
 ```
 
 #### Create data files
@@ -18,6 +19,7 @@ black
 * `demand.csv` - manually copy relevant data from sample excel file
 * `skill_tree.csv`, `supply.csv` - copy corresponding sheets from sample excel file to new csv files
 * `emp_meta.csv`, `emp_skills.csv` - after creating the above csv files, run the command `python preprocess.py`
+* `emp_meta_mock.csv`, `emp_skills_mock.csv` - create random mock data using `python create_mock_data.py`
 
 #### Run the program
 Use `demo.ipynb` jupyter notebook. Setup interactivity in jupyter notebook - [instructions here.](https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6) Or, follow the below instructions if you prefer command line.
@@ -27,3 +29,5 @@ Run `python search.py` to test run search functionality. Optionally, for testing
 To sort by department, run `python search.py --demand_index 4 --weight_index 1 --sort_by_dept`
 
 Demand index refers to the index of the row in `demand.csv` file, `weight_index` 0-2 refers to the index of the row in `weights.csv` file.
+
+Optionally, see `how-search-works.ipynb` to look at an example of how the algorithm works.

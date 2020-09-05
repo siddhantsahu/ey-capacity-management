@@ -65,8 +65,10 @@ def candidate_dept_similarity(candidate, requestor_dept):
 
 
 class Retrieval:
-    def __init__(self):
-        self.index = build_index()
+    def __init__(self, emp_skills_csv, emp_meta_csv):
+        self.emp_skills_csv = emp_skills_csv
+        self.emp_meta_csv = emp_meta_csv
+        self.index = build_index(emp_skills_csv)
 
     def _get_candidates_for_skills(self, skill_id_list):
         """Get suitable candidates for the requirement.
@@ -111,7 +113,7 @@ class Retrieval:
 
         # For scalability, only fetch data for the employees in result set
         # should be cached for fast lookup
-        meta_df = pd.read_csv("../data/emp_meta.csv", sep="\t")
+        meta_df = pd.read_csv(self.emp_meta_csv, sep="\t")
         candidates_df = candidates_df.merge(meta_df, how="left", on="emp_id")
         return candidates_df
 

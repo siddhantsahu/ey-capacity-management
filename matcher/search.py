@@ -59,7 +59,7 @@ def main(demand_index, weight_index, sort_by_dept):
     """
     demand = parse_demand("../data/demand.csv", demand_index)
     weight = get_weight("../data/weights.csv", weight_index)
-    obj = Retrieval()
+    obj = Retrieval("../data/emp_skills.csv", "../data/emp_meta.csv")
     res = obj.get_results(demand, weight, sort_by_dept)
     print(res)
 
